@@ -1,5 +1,5 @@
 
-class PostsController < ApplicationController::BaBse
+class PostsController < ApplicationController::Base
   before_action :set_post, only: [:show, :edit, :update]
 
   def index
