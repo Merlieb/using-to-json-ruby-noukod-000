@@ -47,3 +47,4 @@ private
     params.require(:post).permit(:title, :description)
   end
 end
+
